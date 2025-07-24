@@ -185,9 +185,14 @@ body {
     margin-bottom: 20px;
 }
 
+.product-grid-container .highlight {
+    font-weight: bold;
+    color: var(--accent);
+}
+
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     max-width: 100%;
     margin-top: 40px;
@@ -211,9 +216,7 @@ body {
 
 .card-img {
     width: 100%;
-    aspect-ratio: 674 / 435;
     object-fit: cover;
-    box-shadow: var(--shadow);
     margin-bottom: 0.5rem;
     border-radius: 0.75rem;
 }
